@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
@@ -10,21 +10,21 @@
     <header>
         <a href="#" class="logo">Portfolio</a>
         <div class="toggle"></div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li> 
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li> 
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li> 
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li> 
         </ul>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="textBox">
             <h2>My name is<br><span>Liam Graham.</span></h2>
             <h3>I'm a Virtual Photographer</h3>
-            <a href="#" class="btn">About Me</a>
+            <a href="#about" class="btn">About Me</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="heading">
             <h2>About Me</h2>
     </div>
@@ -42,7 +42,7 @@
     </div>
 
 </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="heading">
             <h2>Gallery</h2>
             <p>This is a small gallery that shows off some of my work.</p>
@@ -60,17 +60,15 @@
             <div class="galleryBx">
                 <img src="a57ec738-e665-45be-aae6-cf28693df3b5.jpg" width="700" height="400">
             </div>
-            <div class="heading">
-                <a href="#" class="btn">View More</a>
-            </div>
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="heading">
             <h2>Contact</h2>
             <p>Here is how you can contact me.</p>
-            <a href="mailto:liamglenngraham@gmail.com">My Email</a>
+            <a href="mailto:liamglenngraham@gmail.com" class="btn">My Email</a><br>
+            <a href="https://instagram.com/liamglenngraham?igshid=jhw54ls24d0" class="btn">My Instagram</a>
         </div>
     </section>
     <script type="text/javascript">
